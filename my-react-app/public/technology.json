@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "icon": "atom",
+    "category": "Popular",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "type": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Next.js",
+    "icon": "layers",
+    "category": "Trending",
+    "description": "A React framework for building fast, scalable, full-stack web applications.Big scale work.",
+    "type": "Frontend",
+    "level": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "name": "Vue.js",
+    "icon": "layout",
+    "category": "Popular",
+    "description": "A progressive JavaScript framework for building interactive and reactive user interfaces.",
+    "type": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "name": "Angular",
+    "icon": "component",
+    "category": "Popular",
+    "description": "A TypeScript-based framework for building large-scale and structured web applications.",
+    "type": "Frontend",
+    "level": "Advanced",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Tailwind CSS",
+    "icon": "palette",
+    "category": "Trending",
+    "description": "A utility-first CSS framework for rapidly building modern and responsive interfaces.",
+    "type": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Laravel",
+    "icon": "server",
+    "category": "Popular",
+    "description": "A PHP framework for building modern, secure, and powerful web applications.",
+    "type": "Backend",
+    "level": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "name": "Node.js",
+    "icon": "server-cog",
+    "category": "Popular",
+    "description": "A JavaScript runtime that allows developers to build fast and scalable server-side applications.",
+    "type": "Backend",
+    "level": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": 8,
+    "name": "Django",
+    "icon": "layers-3",
+    "category": "Popular",
+    "description": "A high-level Python web framework designed for building secure and maintainable applications.",
+    "type": "Backend",
+    "level": "Intermediate",
+    "rating": 4.7
+  },
+  {
+    "id": 9,
+    "name": "Express.js",
+    "icon": "route",
+    "category": "Popular",
+    "description": "A lightweight Node.js framework for building APIs and server-side web applications.",
+    "type": "Backend",
+    "level": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Spring Boot",
+    "icon": "coffee",
+    "category": "Enterprise",
+    "description": "A Java framework for creating production-ready and scalable backend applications.",
+    "type": "Backend",
+    "level": "Advanced",
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "name": "MySQL",
+    "icon": "database",
+    "category": "Popular",
+    "description": "A widely used relational database management system for storing and managing structured data.",
+    "type": "Database",
+    "level": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": 12,
+    "name": "PostgreSQL",
+    "icon": "database",
+    "category": "Popular",
+    "description": "A powerful open-source relational database known for reliability, performance, and advanced features.",
+    "type": "Database",
+    "level": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": 13,
+    "name": "MongoDB",
+    "icon": "database-zap",
+    "category": "Trending",
+    "description": "A document-oriented NoSQL database designed for flexible and scalable applications.",
+    "type": "Database",
+    "level": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "id": 14,
+    "name": "Redis",
+    "icon": "database-backup",
+    "category": "Popular",
+    "description": "An in-memory data store commonly used for caching, sessions, queues, and fast data access.",
+    "type": "Database",
+    "level": "Intermediate",
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "name": "SQLite",
+    "icon": "database",
+    "category": "Lightweight",
+    "description": "A lightweight serverless relational database stored directly in a single application file.",
+    "type": "Database",
+    "level": "Beginner-Friendly",
+    "rating": 4.6
+  }
+]

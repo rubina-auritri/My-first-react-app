@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 173000000
+  },
+  {
+    "id": 2,
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1428000000
+  },
+  {
+    "id": 3,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 124000000
+  },
+  {
+    "id": 4,
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": 1410000000
+  },
+  {
+    "id": 5,
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "continent": "North America",
+    "population": 340000000
+  },
+  {
+    "id": 6,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "population": 41000000
+  },
+  {
+    "id": 7,
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "South America",
+    "population": 212000000
+  },
+  {
+    "id": 8,
+    "name": "United Kingdom",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 69000000
+  },
+  {
+    "id": 9,
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 84000000
+  },
+  {
+    "id": 10,
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 27000000
+  }
+]
