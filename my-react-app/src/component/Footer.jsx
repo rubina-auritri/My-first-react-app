@@ -4,18 +4,18 @@ import FooterLogo from "../assets/logo-text.png";
 
 const Footer = () => {
     return (
-        <footer className=" text-gray-400 py-12 mt-20 ">
-            <div className="max-w-7xl mx-auto px-6">
+        <footer className="text-gray-800 py-10 sm:py-12 mt-16 sm:mt-20 ">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12">
 
-                    <div>
+                    <div className="sm:col-span-2 lg:col-span-1">
                         <img
                             src={FooterLogo}
                             alt="DevStack Logo"
                             className="h-10 w-auto"
                         />
-                        <p className="mt-3 text-gray-400">
+                        <p className="mt-3 text-sm sm:text-base leading-6 max-w-sm">
                             Modern web development technologies.
                         </p>
                         <div className="flex gap-4 mt-4 text-gray-400">
@@ -71,7 +71,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
+                <div className="border-t border-gray-700 mt-10 pt-6 text-center text-black-400">
                     © 2026 DevStack. All rights reserved.
                 </div>
 

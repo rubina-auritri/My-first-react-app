@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "React",
-    "icon": "atom",
+    "icon": "/images/react.png",
     "category": "Popular",
     "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
     "type": "Frontend",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Next.js",
-    "icon": "layers",
+    "icon": "/images/next.png",
     "category": "Trending",
     "description": "A React framework for building fast, scalable, full-stack web applications.Big scale work.",
     "type": "Frontend",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Vue.js",
-    "icon": "layout",
+    "icon": "/images/vue.png",
     "category": "Popular",
     "description": "A progressive JavaScript framework for building interactive and reactive user interfaces.",
     "type": "Frontend",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Angular",
-    "icon": "component",
+    "icon": "/images/angular.png",
     "category": "Popular",
     "description": "A TypeScript-based framework for building large-scale and structured web applications.",
     "type": "Frontend",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Tailwind CSS",
-    "icon": "palette",
+    "icon": "/images/tailwind.png",
     "category": "Trending",
     "description": "A utility-first CSS framework for rapidly building modern and responsive interfaces.",
     "type": "Frontend",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "name": "Laravel",
-    "icon": "server",
+    "icon": "/images/laravel.png",
     "category": "Popular",
     "description": "A PHP framework for building modern, secure, and powerful web applications.",
     "type": "Backend",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "name": "Node.js",
-    "icon": "server-cog",
+    "icon": "/images/nodejs.png",
     "category": "Popular",
     "description": "A JavaScript runtime that allows developers to build fast and scalable server-side applications.",
     "type": "Backend",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Django",
-    "icon": "layers-3",
+    "icon": "/images/django.png",
     "category": "Popular",
     "description": "A high-level Python web framework designed for building secure and maintainable applications.",
     "type": "Backend",
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "name": "Express.js",
-    "icon": "route",
+    "icon": "/images/express.png",
     "category": "Popular",
     "description": "A lightweight Node.js framework for building APIs and server-side web applications.",
     "type": "Backend",
@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "Spring Boot",
-    "icon": "coffee",
+    "icon": "/images/springboot.png",
     "category": "Enterprise",
     "description": "A Java framework for creating production-ready and scalable backend applications.",
     "type": "Backend",
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "name": "MySQL",
-    "icon": "database",
+    "icon": "/images/mysql.png",
     "category": "Popular",
     "description": "A widely used relational database management system for storing and managing structured data.",
     "type": "Database",
@@ -112,7 +112,7 @@
   {
     "id": 12,
     "name": "PostgreSQL",
-    "icon": "database",
+    "icon": "/images/postgresql.png",
     "category": "Popular",
     "description": "A powerful open-source relational database known for reliability, performance, and advanced features.",
     "type": "Database",
@@ -122,7 +122,7 @@
   {
     "id": 13,
     "name": "MongoDB",
-    "icon": "database-zap",
+    "icon": "/images/mongodb.png",
     "category": "Trending",
     "description": "A document-oriented NoSQL database designed for flexible and scalable applications.",
     "type": "Database",
@@ -132,7 +132,7 @@
   {
     "id": 14,
     "name": "Redis",
-    "icon": "database-backup",
+    "icon": "/images/reddis.png",
     "category": "Popular",
     "description": "An in-memory data store commonly used for caching, sessions, queues, and fast data access.",
     "type": "Database",
@@ -142,7 +142,7 @@
   {
     "id": 15,
     "name": "SQLite",
-    "icon": "database",
+    "icon": "/images/sqlite.png",
     "category": "Lightweight",
     "description": "A lightweight serverless relational database stored directly in a single application file.",
     "type": "Database",

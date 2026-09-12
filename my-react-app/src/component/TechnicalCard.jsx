@@ -1,7 +1,7 @@
 
 import { toast } from "react-toastify";
 
-const TechnicalCard = ({ tech, HandleTechSelect }) => {
+const TechnicalCard = ({ tech, HandleTechSelect, isAdded }) => {
     const handleAddToStack = () => {
         HandleTechSelect(tech);
 
@@ -39,7 +39,13 @@ const TechnicalCard = ({ tech, HandleTechSelect }) => {
             ">
 
                 {/* Category Badge */}
-                <div className="flex justify-end">
+                <div className="flex justify-between items-center">
+                    <img
+                        src={tech.icon}
+                        alt={tech.name}
+                        className="w-6 h-6 object-contain"
+                    />
+
                     <span className="bg-sky-50 text-sky-500 text-xs font-medium px-2.5 py-1 rounded-full">
                         {tech.category}
                     </span>
@@ -79,21 +85,14 @@ const TechnicalCard = ({ tech, HandleTechSelect }) => {
 
                 {/* Button */}
                 <button
-                    onClick={handleAddToStack }
-                    className="
-                        w-full
-                        bg-[#0F172A]
-                        hover:bg-slate-800
-                        text-white
-                        text-xs
-                        font-medium
-                        py-2.5
-                        rounded-lg
-                        transition-colors
-                        duration-150
-                    "
+                    onClick={handleAddToStack}
+                    disabled={isAdded(tech)}
+                    className={`w-full py-2 rounded-lg font-semibold ${isAdded
+                            ? "bg-green-100 text-green-700 "
+                            : "bg-blue-600 text-white hover:bg-blue-700"
+                        }`}
                 >
-                    Add to Stack
+                    {isAdded(tech) ? "✓ Added to Stack" : "Add to Stack"}
                 </button>
 
             </div>

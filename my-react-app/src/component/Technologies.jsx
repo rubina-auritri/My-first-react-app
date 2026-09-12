@@ -18,10 +18,12 @@ const Technologies = ({ TechnologiesPromise }) => {
         });
     };
     const removeFromStack = (id) => {
-    setSelectedTech((prev) =>
-        prev.filter((tech) => tech.id !== id)
-    );
-};
+        setSelectedTech((prev) =>
+            prev.filter((tech) => tech.id !== id)
+        );
+    };
+
+    const isAdded = (tech) => { return selectedTech.some( (item) => item.id === tech.id ); };
 
 
     return (
@@ -41,22 +43,23 @@ const Technologies = ({ TechnologiesPromise }) => {
             </div>
 
             {/* Main Layout */}
-            <div className="mt-8 grid grid-cols-4 gap-6">
+            <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-4">
 
                 {/* Technology Cards - 3 columns */}
-                <div className="col-span-3 grid grid-cols-3 gap-4">
+                <div className="order-2 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:order-1 lg:col-span-3 lg:grid-cols-3">
                     {Technicalcourse.map((tech) => (
                         <TechnicalCard
                             key={tech.id}
                             tech={tech}
                             HandleTechSelect={HandleTechSelect}
+                            isAdded={isAdded}
 
                         />
                     ))}
                 </div>
 
                 {/* Sidebar - 1 column */}
-                <aside className="col-span-1">
+                <aside className="order-1 lg:order-2 lg:col-span-1 lg:sticky lg:top-4 lg:self-start">
                     <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
 
                         {/* Header */}
@@ -74,17 +77,34 @@ const Technologies = ({ TechnologiesPromise }) => {
                         {/* Selected technologies */}
                         {selectedTech.length > 0 ? (
                             <>
-                                <ul className="mt-3 space-y-1">
+                                <ul className="mt-3 space-y-1 max-h-[400px] overflow-y-auto pr-1">
                                     {selectedTech.map((tech) => (
                                         <li
                                             key={tech.id}
-                                            className="text-sm text-gray-600"
-                                        >
-                                            {tech.name}
+                                            className="text-sm text-black-600 mb-1 flex items-center justify-between rounded-lg bg-gray-100 px-3 py-2"
+                                        >    {/* Icon */}
+                                            <div className="flex-shrink-0 mr-2">
+                                                <img
+                                                    src={tech.icon}
+                                                    alt={tech.name}
+                                                    className="w-7 h-7 object-contain"
+                                                />
+                                            </div>
+
+                                            {/* Name + Category */}
+                                            <div className="flex-1 min-w-0">
+                                                <p className="text-sm font-semibold text-gray-800">
+                                                    {tech.name}
+                                                </p>
+
+                                                <p className="text-[10px] text-gray-400">
+                                                    {tech.category}
+                                                </p>
+                                            </div>
                                             <button
                                                 type="button"
                                                 onClick={() => removeFromStack(tech.id)}
-                                                className="float-right text-gray-400 hover:text-red-500 transition"
+                                                className="float-right text-red-900 text-2xl font-bold transition"
                                             >
                                                 ×
                                             </button>
