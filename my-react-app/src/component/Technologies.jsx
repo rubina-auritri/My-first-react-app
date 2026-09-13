@@ -59,7 +59,7 @@ const Technologies = ({ TechnologiesPromise }) => {
                 </div>
 
                 {/* Sidebar - 1 column */}
-                <aside className="order-1 lg:order-2 lg:col-span-1 lg:sticky lg:top-4 lg:self-start">
+                <aside className="order-1 lg:order-2 lg:col-span-1 sticky top-4 self-start">
                     <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
 
                         {/* Header */}
